@@ -1,0 +1,11 @@
+font.family      : serif
+font.size        : 13.0
+font.serif       : Times New Roman
+
+mathtext.fontset : custom
+mathtext.cal     : cursive
+mathtext.rm      : serif
+mathtext.tt      : monospace
+mathtext.it      : serif:italic
+mathtext.bf      : serif:bold
+mathtext.sf      : sans

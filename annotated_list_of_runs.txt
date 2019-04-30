@@ -1,0 +1,159 @@
+% ---------------------------------------------------------------------------- %
+
+To highlight the current best runs (yip:<cmd-v>):
+
+:highlight runs ctermbg=darkred guibg=darkred
+:call matchadd('runs', '^2018-03-02a.*')
+:call matchadd('runs', '^2018-03-02b.*')
+:call matchadd('runs', '^2018-03-09a.*')
+:call matchadd('runs', '^2018-03-09b.*')
+:call matchadd('runs', '^2018-03-12a.*')
+:call matchadd('runs', '^2018-03-12b.*')
+:call matchadd('runs', '^2018-03-13a.*')
+:call matchadd('runs', '^2018-03-13b.*')
+:call matchadd('runs', '^2018-04-18a.*')
+:call matchadd('runs', '^2018-04-18b.*')
+:call matchadd('runs', '^2018-04-18c.*')
+:call matchadd('runs', '^2018-04-18d.*')
+:call matchadd('runs', '^2018-05-06a.*')
+:call matchadd('runs', '^2018-05-06b.*')
+:call matchadd('runs', '^2018-05-06c.*')
+:call matchadd('runs', '^2018-05-06d.*')
+:set paste!
+
+To remove highlighting (yip:<cmd-v>):
+
+:call clearmatches()
+:set paste!
+
+% ---------------------------------------------------------------------------- %
+
+2018-03-02a  |  ozstar     |  16 M_E
+             |             |  100 µm
+             |             |  10M + 250K
+             |             |
+2018-03-02b  |  ozstar     |  4 M_E
+             |             |  100 µm
+             |             |  10M + 250K
+             |             |
+2018-03-09a  |  ozstar     |  16 M_E
+             |             |  1 mm
+             |             |  10M + 250K
+             |             |
+2018-03-09b  |  ozstar     |  4 M_E
+             |             |  1 mm
+             |             |  10M + 250K
+             |             |
+2018-03-12a  |  ozstar     |  8 M_E
+             |             |  100 µm
+             |             |  10M + 250K
+             |             |
+2018-03-12b  |  ozstar     |  8 M_E
+             |             |  1 mm
+             |             |  10M + 250K
+             |             |
+2018-03-13a  |  ozstar     |  24 M_E
+             |             |  100 µm
+             |             |  10M + 250K
+             |             |
+2018-03-13b  |  ozstar     |  24 M_E
+             |             |  1 mm
+             |             |  10M + 250K
+             |             |
+2018-04-18a  |  ozstar     |  4 M_E
+             |             |  1 cm
+             |             |  10M + 250K
+             |             |
+2018-04-18b  |  ozstar     |  8 M_E
+             |             |  1 cm
+             |             |  10M + 250K
+             |             |
+2018-04-18c  |  ozstar     |  16 M_E
+             |             |  1 cm
+             |             |  10M + 250K
+             |             |
+2018-04-18d  |  ozstar     |  24 M_E
+             |             |  1 cm
+             |             |  10M + 250K
+             |             |
+2018-05-04a  |  ozstar     |  24 M_E / 8 M_E
+             |             |  gas only - 1M
+             |             |  0.1 M_J
+             |             |
+2018-05-04b  |  ozstar     |  24 M_E / 8 M_E
+             |             |  gas only - 1M
+             |             |  0.3 M_J
+             |             |
+2018-05-04c  |  ozstar     |  24 M_E / 8 M_E
+             |             |  gas only - 1M
+             |             |  1.0 M_J
+             |             |
+2018-05-04d  |  ozstar     |  24 M_E / 8 M_E
+             |             |  gas only - 1M
+             |             |  2.0 M_J
+             |             |
+2018-05-06a  |  ozstar     |  24 M_E / 8 M_E
+             |             |  gas only - 10M
+             |             |  0.1 M_J
+             |             |
+2018-05-06b  |  ozstar     |  24 M_E / 8 M_E
+             |             |  gas only - 10M
+             |             |  0.3 M_J
+             |             |
+2018-05-06c  |  ozstar     |  24 M_E / 8 M_E
+             |             |  gas only - 10M
+             |             |  1.0 M_J
+             |             |
+2018-05-06d  |  ozstar     |  24 M_E / 8 M_E
+             |             |  gas only - 10M
+             |             |  2.0 M_J
+             |             |
+2018-06-07a  |  ozstar     |  100x gas mass
+             |             |  cm grains
+             |             |  16 M_E planets
+             |             |
+2018-06-07b  |  ozstar     |  10x gas mass
+             |             |  mm grains
+             |             |  16 M_E planets
+             |             |
+2018-06-14a  |  ozstar     |  100x gas mass
+             |             |  gas-only
+             |             |  16 M_E planets
+             |             |  0.25 R_h
+             |             |
+2018-06-14b  |  ozstar     |  100x gas mass
+             |             |  gas-only
+             |             |  16 M_E planets
+             |             |  0.125 R_h
+             |             |
+2018-07-23a  |  ozstar     |  10x gas mass
+             |             |  02 M_E planets
+             |             |  1 mm
+             |             |
+2018-07-23b  |  ozstar     |  10x gas mass
+             |             |  04 M_E planets
+             |             |  1 mm
+             |             |
+2018-07-23c  |  ozstar     |  10x gas mass
+             |             |  08 M_E planets
+             |             |  1 mm
+             |             |
+2018-07-23d  |  ozstar     |  10x gas mass
+             |             |  16 M_E planets
+             |             |  1 mm
+             |             |
+2018-07-23e  |  ozstar     |  10x gas mass
+             |             |  02 M_E planets
+             |             |  1 cm
+             |             |
+2018-07-23f  |  ozstar     |  10x gas mass
+             |             |  04 M_E planets
+             |             |  1 cm
+             |             |
+2018-07-23g  |  ozstar     |  10x gas mass
+             |             |  08 M_E planets
+             |             |  1 cm
+             |             |
+2018-07-23h  |  ozstar     |  10x gas mass
+             |             |  16 M_E planets
+             |             |  1 cm
