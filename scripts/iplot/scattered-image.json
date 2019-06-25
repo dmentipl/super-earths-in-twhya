@@ -1,0 +1,20 @@
+{
+    "average":      false,
+    "axes":         "arcsec",
+    "beam":         false,
+    "colorbar":     true,
+    "contrast":     null,
+    "convolve":     [48.5,48.5,0],
+    "coronagraph":  null,
+    "cut":          false,
+    "distance":     null,
+    "log":          null,
+    "mask":         null,
+    "noise":        [1.2,0],
+    "nolabels":     false,
+    "normalize":    true,
+    "polarization": "Qphi",
+    "radius":       null,
+    "scalebar":     null,
+    "scaling":      2
+}
