@@ -1,0 +1,23 @@
+Included files:
+
++ README
++ paper.tex
++ paper.bbl
++ references.bib
++ mnras.bst
++ mnras.cls
++ figs/
+  - alma-image.pdf
+  - andrews-2016.pdf
+  - CO-image.pdf
+  - dust.pdf
+  - gap.pdf
+  - gas.pdf
+  - huang-2018.pdf
+  - scattered-image.pdf
+  - scattered-radial.pdf
+  - van-boekel-2017.pdf
+
+To compile, run:
+
+latexmk paper.tex

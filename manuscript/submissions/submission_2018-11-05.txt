@@ -1,0 +1,46 @@
+Title:
+Super-Earths in the TW Hya disc
+
+Running head:
+Super-Earths in the TW Hya disc
+
+Abstract:
+We test the hypothesis that the sub-millimetre thermal emission and scattered
+light gaps seen in recent observations of TW~Hya are caused by planet-disc
+interactions. We perform global three-dimensional dusty smoothed particle
+hydrodynamics simulations, comparing synthetic observations of our models with
+dust thermal emission, CO emission and scattered light observations.  We find
+that the dust gaps observed at 24~au and 41~au can be explained by two
+super-Earths ($\sim$~4~$\mathrm{M}_{\oplus}$). A planet of approximately
+Saturn-mass can explain the CO emission and the depth and width of the gap seen
+in scattered light at 94~au. Our model produces a prominent spiral arm while
+there are only hints of this in the data. To avoid runaway growth and migration
+of the planets we require a disc mass of $\lesssim 10^{-2}\,\mathrm{M}_{\oplus}$
+in agreement with CO observations but 10--100 times lower than the estimate from
+HD line emission.
+
+Reason for letter:
+The field of protoplanetary discs is currently evolving rapidly, with fresh ALMA
+and observations published almost daily. Hence it is important that our paper is
+published in a timely manner.  We have also attempted to express the main
+results of our study in a concise manner appropriate to the Letters section, in
+order to maximise the impact of our findings in a fast-evolving field.
+
+Keywords:
+protoplanetary discs
+planet-disc interactions
+stars: individual (TW Hydrae)
+submillimetre: planetary systems
+infrared: planetary systems
+hydrodynamics
+
+Cover letter:
+This submission is a revised version of MN-18-3607-L. We have uploaded a
+response to the referee (response.pdf), and a manuscript with highlighted
+changes (paper-changes.pdf).
+
+Funding:
+Australian Research Council
+DP180104235
+FT130100034
+FT170100040

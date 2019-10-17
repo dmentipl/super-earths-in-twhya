@@ -1,0 +1,105 @@
+\documentclass{article}
+
+\usepackage{color}
+\usepackage{parskip}
+\usepackage{geometry}
+
+\begin{document}
+
+I have read with the great interest the letter ``Super-Earths in the TW Hya
+disc'' by Mentiplay et al.  I think their work is worth publication on MNRAS
+after a moderate revision.  The authors obtain mass constraints on the potential
+planetary objects responsible for the gaps and (hint of a) spiral structure
+observed in the TW Hya disc.  They compared their numerical simulations with a
+range of observational data, from the dust continuum emission from ALMA, to the
+polarized scatter light from SPHERE, and CO emission maps.  The weak points that
+need to be addressed are:
+
+1.\ the very short integration time (in particular for the outer planet, 16
+orbits), and how this can influence the estimated planetary mass.  Especially
+using a very low viscosity, the time-scale needed to open up a gap in the gas
+disc can be of several tens of orbits. This can alter the conclusions, since
+also a smaller planet than the ones considered can create those features
+(especially at 94 au). It would be nice to show a time-evolution of the gap
+structure (or of Fig. 4) to understand the importance of this factor.
+
+{\color{blue}
+   We extended our calculations. For the gas-only calculations where we look at
+   the gap at 94~au we run for 100 orbits at this location. For the dust+gas
+   calculations we ran for 100 orbits at the location of the 41~au planet.
+
+   We added a fifth figure showing the gap profile in surface density as it
+   varies in time.
+}
+
+2.\ the choice of only one intermediate dust size to model the entire dust
+population.  It is reasonable to assume grains smaller than 1 micrometer
+completely coupled to the gas, and interpolate between the behavior of the gas
+and the modelled dust for intermediate sizes (up to St$\sim$0.3). It is not
+clear how bigger dust particles (in particular around St$\sim$1) are treated and
+how a simple interpolation can catch their behavior.
+
+{\color{blue}
+   We ran extra calculations with 1~mm dust grains (with St~$\sim$~3) to
+   complement the 100~$\mu$m calculations. We then used both these grain size
+   distributions as input for the radiative transfer calculation. All figures
+   have been updated accordingly.
+}
+
+3.\ the constraint on the disc mass, although is strongly highlighted, is based
+only on one model that is able to recreate the CO emission maps (an esploration
+of the disc mass dependence is missing), and the observed turbulence (also model
+dependent).
+
+{\color{blue}
+   We have softened the language on constraining the disc mass, and added
+   further discussion on this.
+}
+
+Other minor issues:
+
+- a strong argument in favour of a planetary system causing the observed gaps is
+the possible resonance trapping migration of the planets. In particular the
+inner two can be close to a 7:3 MMR\@. This potential aspect is not touched.
+
+{\color{blue}
+   We have added a sentence discussing this.
+}
+
+- they should estrapolate the disc mass up to the star, and not up to 10 au
+(sec. 2.2), in order to have a realistic value to compare with obervations.
+
+{\color{blue}
+   We have addressed this by stating magnitude of the correction (1--10\%
+   depending on prescription, i.e.\ power law, smoothed inner edge).
+}
+
+- an additional constraint on the outer planet can be inferred by the lack of
+dust continuum emission outside its location. This is potentially an indication
+that it has not reached the pebble isolation mass and dust particles can cross
+its location. They can use the prescription by Bitsch et al. (2018) to put an
+upper limit on the outer planet based on that.
+
+{\color{blue}
+   We have added discussion of pebble mass suggesting that radial drift may have
+   occurred prior to the planet reaching its current mass.
+}
+
+- the strong acretion rate onto the planets (together with planet migration) can
+prevent a stable state to be reached. What is the final mass of the outer
+planet? How can this affect the mass prediction?
+
+{\color{blue}
+   We have added a paragraph giving the mass accreted onto each planet for each
+   model.
+}
+
+- how was the check on the temperature at the innermost planet location made in
+order to say that the effect of not having the disk inside 10 au was negligible?
+
+{\color{blue}
+   We have addressed this by explaining how we checked that the temperature
+   beyond 20 au is accurately calculated in the radiative transfer model.
+}
+
+\end{document}
