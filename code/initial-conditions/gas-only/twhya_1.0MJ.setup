@@ -2,7 +2,6 @@
 
 # resolution
                   np =    10000000    ! number of gas particles
-             np_dust =      250000    ! number of dust particles
 
 # units
            dist_unit =          au    ! distance unit (e.g. au,pc,kpc,0.1pc)
@@ -32,22 +31,6 @@
                  H_R =       0.034    ! H/R at R=R_ref
              alphaSS =       0.005    ! desired alphaSS
 
-# options for dust accretion disc
-          itaperdust =           F    ! exponentially taper the outer disc profile
-         ismoothdust =           F    ! smooth inner disc
-            R_indust =         10.    ! inner radius
-           R_outdust =         80.    ! outer radius
-         pindex_dust =       0.000    ! p index
-         qindex_dust =       0.125    ! q index
-            H_R_dust =       0.034    ! H/R at R=R_ref
-
-# options for dust
-         dust_method =           2    ! dust method (1=one fluid,2=two fluid)
-   dust_to_gas_ratio =       0.050    ! dust to gas ratio
-    profile_set_dust =           1    ! how to set dust density profile (0=equal to gas,1=custom)
-        grainsizeinp =       0.100    ! grain size (in cm)
-        graindensinp =       3.000    ! intrinsic grain density (in g/cm^3)
-
 # set planets
           setplanets =           1    ! add planets? (0=no,1=yes)
             nplanets =           3    ! number of planets
@@ -59,17 +42,17 @@
          accrplanet1 =       0.370    ! planet radius
 
 # planet:2
-            mplanet2 =       0.075    ! planet mass (in Jupiter mass)
+            mplanet2 =       0.025    ! planet mass (in Jupiter mass)
             rplanet2 =         41.    ! planet distance from star
          inclplanet2 =       0.000    ! planet orbital inclination (deg)
-         accrplanet2 =       0.640    ! planet radius
+         accrplanet2 =       0.440    ! planet radius
 
 # planet:3
-            mplanet3 =       0.300    ! planet mass (in Jupiter mass)
+            mplanet3 =       1.000    ! planet mass (in Jupiter mass)
             rplanet3 =         94.    ! planet distance from star
          inclplanet3 =       0.000    ! planet orbital inclination (deg)
-         accrplanet3 =       2.300    ! planet radius
+         accrplanet3 =       3.500    ! planet radius
 
 # timestepping
-             norbits =          45    ! maximum number of outer planet orbits
-              deltat =       0.115    ! output interval as fraction of orbital period
+             norbits =          50    ! maximum number of outer planet orbits
+              deltat =       0.100    ! output interval as fraction of orbital period

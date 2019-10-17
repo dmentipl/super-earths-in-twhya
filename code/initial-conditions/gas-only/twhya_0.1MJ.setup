@@ -1,0 +1,58 @@
+# input file for disc setup routine
+
+# resolution
+                  np =    10000000    ! number of gas particles
+
+# units
+           dist_unit =          au    ! distance unit (e.g. au,pc,kpc,0.1pc)
+           mass_unit =      solarm    ! mass unit (e.g. solarm,jupiterm,earthm)
+
+# central object(s)/potential
+            icentral =           1    ! use sink particles or external potential (0=potential,1=sinks)
+              nsinks =           1    ! number of sinks
+
+# options for central star
+                  m1 =       0.800    ! star mass
+               accr1 =         10.    ! star accretion radius
+
+# options for gas accretion disc
+            mass_set =           0    ! how to set gas density profile (0=total disc mass,1=mass within annulus,2=surface density normalisation,3=surface density at reference radius,4=minimum Toomre Q)
+           itapergas =           F    ! exponentially taper the outer disc profile
+          ismoothgas =           T    ! smooth inner disc
+               iwarp =           F    ! warp disc
+                R_in =         10.    ! inner radius
+               R_ref =         10.    ! reference radius
+               R_out =        200.    ! outer radius
+              disc_m =   7.500E-04    ! disc mass
+              pindex =       0.500    ! p index
+              qindex =       0.125    ! q index
+             posangl =       0.000    ! position angle (deg)
+                incl =       0.000    ! inclination (deg)
+                 H_R =       0.034    ! H/R at R=R_ref
+             alphaSS =       0.005    ! desired alphaSS
+
+# set planets
+          setplanets =           1    ! add planets? (0=no,1=yes)
+            nplanets =           3    ! number of planets
+
+# planet:1
+            mplanet1 =       0.075    ! planet mass (in Jupiter mass)
+            rplanet1 =         24.    ! planet distance from star
+         inclplanet1 =       0.000    ! planet orbital inclination (deg)
+         accrplanet1 =       0.370    ! planet radius
+
+# planet:2
+            mplanet2 =       0.025    ! planet mass (in Jupiter mass)
+            rplanet2 =         41.    ! planet distance from star
+         inclplanet2 =       0.000    ! planet orbital inclination (deg)
+         accrplanet2 =       0.440    ! planet radius
+
+# planet:3
+            mplanet3 =       0.100    ! planet mass (in Jupiter mass)
+            rplanet3 =         94.    ! planet distance from star
+         inclplanet3 =       0.000    ! planet orbital inclination (deg)
+         accrplanet3 =       1.600    ! planet radius
+
+# timestepping
+             norbits =          50    ! maximum number of outer planet orbits
+              deltat =       0.100    ! output interval as fraction of orbital period
