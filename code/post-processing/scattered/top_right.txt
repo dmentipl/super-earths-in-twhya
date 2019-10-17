@@ -1,0 +1,4 @@
+0.1 $\mathrm{M_J}$
+0.3 $\mathrm{M_J}$
+1.0 $\mathrm{M_J}$
+2.0 $\mathrm{M_J}$

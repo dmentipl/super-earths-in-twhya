@@ -1,0 +1,20 @@
+{
+    "average":      true,
+    "axes":         "au",
+    "beam":         false,
+    "colorbar":     false,
+    "contrast":     null,
+    "convolve":     null,
+    "coronagraph":  null,
+    "cut":          true,
+    "distance":     59.5,
+    "log":          null,
+    "mask":         null,
+    "noise":        null,
+    "nolabels":     false,
+    "normalize":    false,
+    "polarization": null,
+    "radius":       [10,80],
+    "scalebar":     null,
+    "scaling":      null
+}

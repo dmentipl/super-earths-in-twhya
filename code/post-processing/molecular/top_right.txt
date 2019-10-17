@@ -1,0 +1,4 @@
+$0.1\;\mathregular{M_J}$
+$0.3\;\mathregular{M_J}$
+$1.0\;\mathregular{M_J}$
+$2.0\;\mathregular{M_J}$

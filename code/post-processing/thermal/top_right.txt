@@ -1,0 +1,5 @@
+$4\;\mathregular{M_E}$
+$8\;\mathregular{M_E}$
+$16\;\mathregular{M_E}$
+$24\;\mathregular{M_E}$
+
