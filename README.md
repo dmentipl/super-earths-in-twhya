@@ -7,10 +7,12 @@ by Daniel Mentiplay, Daniel Price, and Christophe Pinte
 * arXiv: [1811.03636](http://arxiv.org/abs/1811.03636)
 * DOI: [10.1093/mnrasl/sly209](https://www.doi.org/10.1093/mnrasl/sly209)
 
+*Note that this repository is not a complete history of the work. We created this repository after the paper was accepted.*
+
 Abstract
 --------
 
-> We test the hypothesis that the sub-millimetre thermal emission and scattered light gaps seen in recent observations of TW Hya are caused by planet-disc interactions. We perform global three-dimensional dusty smoothed particle hydrodynamics simulations, comparing synthetic observations of our models with dust thermal emission, CO emission and scattered light observations.  We find that the dust gaps observed at 24 au and 41 au can be explained by two super-Earths (approx. 4 Earth-mass). A planet of approximately Saturn-mass can explain the CO emission and the depth and width of the gap seen in scattered light at 94 au. Our model produces a prominent spiral arm while there are only hints of this in the data. To avoid runaway growth and migration of the planets we require a disc mass of less than 0.01 solar masses in agreement with CO observations but 10 to 100 times lower than the estimate from HD line emission.
+We test the hypothesis that the sub-millimetre thermal emission and scattered light gaps seen in recent observations of TW Hya are caused by planet-disc interactions. We perform global three-dimensional dusty smoothed particle hydrodynamics simulations, comparing synthetic observations of our models with dust thermal emission, CO emission and scattered light observations.  We find that the dust gaps observed at 24 au and 41 au can be explained by two super-Earths (approx. 4 Earth-mass). A planet of approximately Saturn-mass can explain the CO emission and the depth and width of the gap seen in scattered light at 94 au. Our model produces a prominent spiral arm while there are only hints of this in the data. To avoid runaway growth and migration of the planets we require a disc mass of less than 0.01 solar masses in agreement with CO observations but 10 to 100 times lower than the estimate from HD line emission.
 
 Results
 -------
