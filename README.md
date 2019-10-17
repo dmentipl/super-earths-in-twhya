@@ -17,35 +17,35 @@ Results
 
 We aimed to reproduce recent observations of TW Hya.
 
-![](alma-image.png)
+![Synthetic observations of thermal dust continuum at 870 micron.](alma-image.png)
 
 *Synthetic observations of thermal dust continuum at 870 micron.*
 
-![](scattered-image.png)
+![Synthetic observations of scattered light at 1.6 micron.](scattered-image.png)
 
 *Synthetic observations of scattered light at 1.6 micron.*
 
 Manuscript
 ----------
 
-The manuscript is a separate git repository on GitHub. But it is included here as a git submodule from [here](https://github.com/dmentipl/twhya-paper).
+The history of the manuscript is a separate git repository on GitHub. We include the files here. The repository is at <https://github.com/dmentipl/super-earths-in-twhya-paper>.
 
 Code
 ----
 
-In the code directory there are:
+The code directory contains source code for initialising the models in Phantom, post-processing in MCFOST, and generating figures from the models and observations.
 
 * Phantom `.setup` and `.in` files used to generate the Phantom simulations
 * MCFOST `.para` files for thermal dust continuum, scattered light, and CO line
   emission synthetic observations
 * Splash config files to produce figures for the paper
-* Plus various Python scripts to analysis and comparison with observations or
+* Plus Python scripts to analysis and comparison with observations or
   analytic results
 
-See `annotated_list_of_runs.txt` for a list of runs and the directories they are found in.
+See `code/annotated_list_of_runs.txt` for a list of runs and their container directories.
 
 ### Reproducibility
 
-We used the Phantom version specified by the following git commit hash: f0a1825898dc778720d0cccacc4ea403c4c6de40
+We used the Phantom version specified by the following git commit hash: `f0a1825898dc778720d0cccacc4ea403c4c6de40`.
 
-We used the MCFOST version specified by the following git commit hash: bc332ce
+We used the MCFOST version specified by the following git commit hash: `bc332ce`.
