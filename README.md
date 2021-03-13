@@ -30,7 +30,7 @@ We aimed to reproduce recent observations of TW Hya.
 Manuscript
 ----------
 
-The history of the manuscript is a separate git repository on GitHub. We include the files here. The repository is at <https://github.com/dmentipl/super-earths-in-twhya-paper>.
+The history of the manuscript is a separate private git repository. We include the files here.
 
 Code
 ----
@@ -44,10 +44,18 @@ The code directory contains source code for initialising the models in Phantom, 
 * Plus Python scripts to analysis and comparison with observations or
   analytic results
 
-See `code/annotated_list_of_runs.txt` for a list of runs and their container directories.
-
 ### Reproducibility
 
 We used the Phantom version specified by the following git commit hash: `f0a1825898dc778720d0cccacc4ea403c4c6de40`.
 
 We used the MCFOST version specified by the following git commit hash: `bc332ce`.
+
+Data
+----
+
+Data sets are available on Figshare. There are two sets of data:
+
+- [Phantom dust-gas hydrodynamical models](https://figshare.com/articles/dataset/TW_Hya_dust_and_gas_hydrodynamical_models_with_Phantom/11595369)
+- [MCFOST radiative transfer post-processed models](https://figshare.com/articles/dataset/TW_Hya_dust_and_gas_radiative_transfer_models_with_MCFOST/11625930)
+
+These data sets contain model snapshots (and post-processed snapshots) used for the publication. For more details on the full data sets see [here](data/README.md).

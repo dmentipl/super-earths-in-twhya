@@ -1,17 +1,19 @@
 Super Earths in the TW Hya disc data
 ====================================
 
+*Note: The full data sets are not publicly available but will be upon request. See Figshare for publicly available reduced data sets. (URLs are in the top-level [README.md](../README.md) file.)*
+
 This file contains instructions on acquiring data for the TW Hya models. There are Phantom-related data and MCFOST-related data. There are two sets of models.
 
 * One focussing on the inner planets with dust and gas modelling: `dust-gas`. For each planet mass of 4, 8, and 16 Earth masses, we ran two single-grain-size calculations at 100 micron and 1 mm.
 * The other focussing on the outer planet with gas-only models: `gas-only`. We ran four models with planet masses 0.1, 0.3, 1, and 2 Jupiter masses.
 
-*Note: the following uses the shell variable `ROOT_DIR=monashbox:/mnt/driveA/super-earths-in-twhya`.*
+The following uses the shell variable `ROOT_DIR` which specifies the location of the data on the file system.
 
 Raw Phantom data
 ----------------
 
-The Phantom dumps are on the 'monashbox' machine in the root directory `/mnt/driveA/super-earths-in-twhya`, of which there are two sub-directories `dust-gas` and `gas-only`. The sub-directory (of `dust-gas` and `gas-only`) containing the raw Phantom data is `00_raw_phantom_data`. There is a directory for each planet mass, and in the dust and gas models there is a directory for each grain size for each planet mass.
+The Phantom dumps are in the two sub-directories `dust-gas` and `gas-only`. The sub-directory (of `dust-gas` and `gas-only`) containing the raw Phantom data is `00_raw_phantom_data`. There is a directory for each planet mass, and in the dust and gas models there is a directory for each grain size for each planet mass.
 
 To get the raw Phantom data:
 
